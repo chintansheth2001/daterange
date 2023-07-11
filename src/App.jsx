@@ -13,6 +13,7 @@ function App() {
           <Selector />
           <div className="sdly_switch">
             <label className="switch" htmlFor="checkbox">
+              <strong className="sdly_label">SDLY</strong>
               <input type="checkbox" id="checkbox" />
               <div className="slider round"></div>
             </label>

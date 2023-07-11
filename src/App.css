@@ -45,8 +45,16 @@
 }
 
 .sdly_switch{
-  display: flex;
-}@media only screen and (max-width: 600px) {
+ margin-top: 10px;
+ position: relative;
+ top: 12px;
+}
+
+.sdly_label{
+  position: absolute;
+  top: -30px
+}
+@media only screen and (max-width: 600px) {
   .selector{
     order: 1;
     flex-grow: 1;
