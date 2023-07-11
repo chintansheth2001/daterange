@@ -11,8 +11,9 @@
   padding: 8px;
   gap: 24px;
   align-items: center;
-  
+  flex-wrap: wrap;
 }
+
 .grid_icon{margin-left: auto;}
 
 .stay_date{
@@ -45,4 +46,10 @@
 
 .sdly_switch{
   display: flex;
+}@media only screen and (max-width: 600px) {
+  .selector{
+    order: 1;
+    flex-grow: 1;
+    width: 100%;
+  }
 }

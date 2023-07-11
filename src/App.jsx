@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FiMove } from "react-icons/fi";
 import { MdGridOn } from "react-icons/md";
 import Selector from "./components/Selector";
