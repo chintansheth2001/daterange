@@ -1,8 +1,11 @@
 .dropdown_outer{
   position: relative;
   min-width: 260px;
-  text-align: center;
+  
   flex-grow: 1;
+}
+.dropdown_outer > .date_range_div{
+  text-align: center;
 }
 
 .dropdown{
